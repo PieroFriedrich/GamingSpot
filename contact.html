@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Spot - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/gamingstopicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header1">
+            <a href="./index.html"><img src="./img/gamingstoplogo.png" alt="Gaming Spot Logo"></a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#consoles">Games</a></li>
+                <li><a href="./onsale.html">On Sale</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="header2">
+            <div class="headertext">
+                <h1>Contact Us!</h1>
+                <p>Our Store is always willing to hear your opinions, feel free to share your thoughts, doubts and reviews with us!</p>
+            </div>
+            <img src="./img/consoles.webp" alt="PS5, Xbox One and Nintendo Switch Together">
+        </div>
+    </header>
+    <nav>
+        <form>
+            <label for="name">
+                Name:
+                <input id="name" name="name" type="text" placeholder="Name:">
+            </label>
+            <label for="lastname">
+                Last Name:
+                <input id="lastname" name="lastname" type="text" placeholder="Last Name:">
+            </label>
+            <label for="email">
+                E-mail:
+                <input id="email" name="email" type="email" required placeholder="E-mail:">
+            </label>
+            <label for="comment">
+                Your comment:
+                <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="Write your thoughts here."></textarea>
+            </label>
+            <button onclick="submitClicked()" type="submit">Submit</button>
+        </form>
+    </nav>
+    <footer>
+        <div id="signup">
+            <div class="signuptext">
+                <h3>Receive our weekly news!</h3>
+                <p>Sign up to Gaming Spot to receive the best offers and a 20% off coupon to your first purchase!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+        <div id="contact" class="copyright">
+            <p>Copyright &copy; Piero Friedrich, 2023</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
