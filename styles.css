@@ -211,11 +211,6 @@ form input, form textarea {
 }
 
 @media (max-width: 1200px) {
-    .onsalegames {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
-    }
 
     body {
         text-align: center;
@@ -266,7 +261,11 @@ form input, form textarea {
         max-width: none;
     }
 
-    
+    .onsalegames {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
 
     form {
         width: 60vw;
@@ -278,8 +277,12 @@ form input, form textarea {
     }
 
     .headertext {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header2 p {
+        max-width: none;
     }
 
     .navimages {
