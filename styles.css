@@ -306,6 +306,9 @@ form input, form textarea {
         display: block;
     }
 
-    
+    .header2 img {
+        margin-right: auto;
+        width: 360px;
+    }
 }
 
