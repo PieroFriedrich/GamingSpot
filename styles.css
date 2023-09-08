@@ -244,8 +244,8 @@ form input, form textarea {
     }
 
     .header2 {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .header2 button {
@@ -269,11 +269,6 @@ form input, form textarea {
 
     form {
         width: 60vw;
-    }
-
-    .header2 {
-        padding-left: 0;
-        padding-right: 0;
     }
 
     .headertext {
