@@ -307,8 +307,8 @@ form input, form textarea {
     }
 
     .header2 img {
-        margin-right: auto;
-        width: 360px;
+        width: 90%;
+        height: auto;
     }
 }
 
